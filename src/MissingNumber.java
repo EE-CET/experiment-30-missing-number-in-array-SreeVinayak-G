@@ -4,10 +4,10 @@ public class MissingNumber {
                 Scanner sc = new Scanner(System.in);
                 int n = sc.nextInt();
                 int sum = (n*(n+1))/2;
-                for(int i=0;i<n-1;i++){
+                for(int i=0;i<n;i++){
                         sum -= sc.nextInt();
                 }
-                System.out.println(sum-1);
+                System.out.println(sum);
         }
     
 }
